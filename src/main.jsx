@@ -1,23 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './styles/input.css'  // Important !
 
 const element = (
-  <div style={{
-    backgroundColor: '#f0f0f0',
-    minHeight: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center'
-  }}>
-    <h1 style={{
-      color: '#000000',
-      fontSize: '32px',
-      textAlign: 'center',
-      backgroundColor: '#ffffff',
-      padding: '20px',
-      borderRadius: '8px',
-      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-    }}>
+  <div className="min-h-screen bg-gray-100 flex justify-center items-center">
+    <h1 className="text-3xl font-bold text-black bg-white p-5 rounded-lg shadow">
       Vinited Test
     </h1>
   </div>
