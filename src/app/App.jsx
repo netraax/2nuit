@@ -1,13 +1,22 @@
 import React from 'react'
+import { Header, Footer } from './components/layout'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="container mx-auto p-4">
-        <h1 className="text-4xl font-bold text-black">
-          Vinited - En construction
-        </h1>
-      </div>
+    <div style={{ 
+      minHeight: '100vh',
+      backgroundColor: '#ffffff',
+      color: '#000000',
+      padding: '20px'
+    }}>
+      <h1 style={{
+        fontSize: '2rem',
+        fontWeight: 'bold',
+        marginBottom: '1rem'
+      }}>
+        Vinited
+      </h1>
+      <p>Site en construction...</p>
     </div>
   )
 }
